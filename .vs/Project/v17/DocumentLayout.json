@@ -1,0 +1,580 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorapi\\blazorapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|solutionrelative:blazorapi\\blazorapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\blazorwasmapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\blazorwasmapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\pages\\favouritecitis.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\pages\\favouritecitis.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\services\\favoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\services\\favoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\services\\rainnotificationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\services\\rainnotificationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\models\\favoritecity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\models\\favoritecity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\models\\weatherresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\models\\weatherresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorapi\\services\\mongodbservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|solutionrelative:blazorapi\\services\\mongodbservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorapi\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|solutionrelative:blazorapi\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorapi\\controllers\\favoritescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|solutionrelative:blazorapi\\controllers\\favoritescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlazorWasmApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorapi\\models\\weatherresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|solutionrelative:blazorapi\\models\\weatherresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorapi\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|solutionrelative:blazorapi\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|solutionrelative:blazorapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorapi\\services\\supabaseauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|solutionrelative:blazorapi\\services\\supabaseauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\wwwroot\\favicon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\wwwroot\\favicon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\wwwroot\\icon-192.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\wwwroot\\icon-192.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorwasmapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorapi\\supabase\\clientoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|solutionrelative:blazorapi\\supabase\\clientoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|solutionrelative:blazorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorapi\\services\\weatherchatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|solutionrelative:blazorapi\\services\\weatherchatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\blazorapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|solutionrelative:blazorapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.402\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorWasmApp\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T13:04:25.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\Register.razor",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Pages\\Register.razor",
+              "RelativeToolTip": "BlazorWasmApp\\Pages\\Register.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T12:39:22.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorWasmApp\\Pages\\Home.razor",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T18:49:19.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BlazorWasmApp\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T19:20:38.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BlazorApi.csproj",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\BlazorApi.csproj",
+              "RelativeDocumentMoniker": "BlazorApi\\BlazorApi.csproj",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\BlazorApi.csproj",
+              "RelativeToolTip": "BlazorApi\\BlazorApi.csproj",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-28T18:19:28.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BlazorWasmApp.csproj",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\BlazorWasmApp.csproj",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\BlazorWasmApp.csproj",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\BlazorWasmApp.csproj",
+              "RelativeToolTip": "BlazorWasmApp\\BlazorWasmApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-28T18:28:50.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Pages\\Weather.razor",
+              "RelativeToolTip": "BlazorWasmApp\\Pages\\Weather.razor",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAEEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T19:14:40.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Pages\\Login.razor",
+              "RelativeToolTip": "BlazorWasmApp\\Pages\\Login.razor",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T19:13:29.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "BlazorWasmApp\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-07T17:04:42.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Pages\\Counter.razor",
+              "RelativeToolTip": "BlazorWasmApp\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T07:58:12.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Favouritecitis.razor",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Pages\\Favouritecitis.razor",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\Favouritecitis.razor",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Pages\\Favouritecitis.razor",
+              "RelativeToolTip": "BlazorWasmApp\\Pages\\Favouritecitis.razor",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAAALEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T18:31:36.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Services\\AuthService.cs",
+              "RelativeToolTip": "BlazorWasmApp\\Services\\AuthService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAiwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:38:06.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\_Imports.razor",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\_Imports.razor",
+              "RelativeToolTip": "BlazorWasmApp\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T19:21:34.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Program.cs",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Program.cs",
+              "RelativeToolTip": "BlazorWasmApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:37:31.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WeatherService.cs",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Services\\WeatherService.cs",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Services\\WeatherService.cs",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Services\\WeatherService.cs",
+              "RelativeToolTip": "BlazorWasmApp\\Services\\WeatherService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T09:35:30.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RainNotificationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Services\\RainNotificationRequest.cs",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Services\\RainNotificationRequest.cs",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Services\\RainNotificationRequest.cs",
+              "RelativeToolTip": "BlazorWasmApp\\Services\\RainNotificationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:56:53.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FavoriteCity.cs",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Models\\FavoriteCity.cs",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Models\\FavoriteCity.cs",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Models\\FavoriteCity.cs",
+              "RelativeToolTip": "BlazorWasmApp\\Models\\FavoriteCity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T13:09:58.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FavoriteService.cs",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Services\\FavoriteService.cs",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Services\\FavoriteService.cs",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Services\\FavoriteService.cs",
+              "RelativeToolTip": "BlazorWasmApp\\Services\\FavoriteService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA6wDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T13:02:08.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WeatherResponse.cs",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Models\\WeatherResponse.cs",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Models\\WeatherResponse.cs",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\Models\\WeatherResponse.cs",
+              "RelativeToolTip": "BlazorWasmApp\\Models\\WeatherResponse.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAmwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:43:32.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MongoDBservices.cs",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\Services\\MongoDBservices.cs",
+              "RelativeDocumentMoniker": "BlazorApi\\Services\\MongoDBservices.cs",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\Services\\MongoDBservices.cs",
+              "RelativeToolTip": "BlazorApi\\Services\\MongoDBservices.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAA+wJMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:59:20.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WeatherController.cs",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\Controllers\\WeatherController.cs",
+              "RelativeDocumentMoniker": "BlazorApi\\Controllers\\WeatherController.cs",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\Controllers\\WeatherController.cs",
+              "RelativeToolTip": "BlazorApi\\Controllers\\WeatherController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAgwA4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T04:48:28.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FavoritesController.cs",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\Controllers\\FavoritesController.cs",
+              "RelativeDocumentMoniker": "BlazorApi\\Controllers\\FavoritesController.cs",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\Controllers\\FavoritesController.cs",
+              "RelativeToolTip": "BlazorApi\\Controllers\\FavoritesController.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAIBJwKcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:59:07.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "blazor.webassembly.js",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+              "RelativeToolTip": "BlazorWasmApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAwAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-07T13:13:38.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "WeatherService.cs",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\Services\\WeatherService.cs",
+              "RelativeDocumentMoniker": "BlazorApi\\Services\\WeatherService.cs",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\Services\\WeatherService.cs",
+              "RelativeToolTip": "BlazorApi\\Services\\WeatherService.cs",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAgwPMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:21:44.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "WeatherResponse.cs",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\Models\\WeatherResponse.cs",
+              "RelativeDocumentMoniker": "BlazorApi\\Models\\WeatherResponse.cs",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\Models\\WeatherResponse.cs",
+              "RelativeToolTip": "BlazorApi\\Models\\WeatherResponse.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAowGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T04:53:32.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BlazorApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BlazorApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAwJgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T04:48:12.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SupabaseAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\Services\\SupabaseAuthService.cs",
+              "RelativeDocumentMoniker": "BlazorApi\\Services\\SupabaseAuthService.cs",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\Services\\SupabaseAuthService.cs",
+              "RelativeToolTip": "BlazorApi\\Services\\SupabaseAuthService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAmwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:24:17.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "favicon.png -  [English (United States)] - PNG [32x32, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\wwwroot\\favicon.png",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\wwwroot\\favicon.png",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\wwwroot\\favicon.png -  [English (United States)] - PNG [32x32, 32 bit, PNG]",
+              "RelativeToolTip": "BlazorWasmApp\\wwwroot\\favicon.png -  [English (United States)] - PNG [32x32, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-02-07T07:58:25.082Z",
+              "EditorCaption": " -  [English (United States)] - PNG [32x32, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "icon-192.png -  [English (United States)] - PNG [192x192, 8 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\wwwroot\\icon-192.png",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\wwwroot\\icon-192.png",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\wwwroot\\icon-192.png -  [English (United States)] - PNG [192x192, 8 bit, PNG]",
+              "RelativeToolTip": "BlazorWasmApp\\wwwroot\\icon-192.png -  [English (United States)] - PNG [192x192, 8 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-02-07T07:58:23.421Z",
+              "EditorCaption": " -  [English (United States)] - PNG [192x192, 8 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\wwwroot\\index.html",
+              "RelativeToolTip": "BlazorWasmApp\\wwwroot\\index.html",
+              "ViewState": "AgIAAA4AAAAAAAAAAABRwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-07T07:19:43.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ClientOptions.cs",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\Supabase\\ClientOptions.cs",
+              "RelativeDocumentMoniker": "BlazorApi\\Supabase\\ClientOptions.cs",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\Supabase\\ClientOptions.cs",
+              "RelativeToolTip": "BlazorApi\\Supabase\\ClientOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T05:34:36.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApi\\Program.cs",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\Program.cs",
+              "RelativeToolTip": "BlazorApi\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBZwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:36:57.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "WeatherChatService.cs",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\Services\\WeatherChatService.cs",
+              "RelativeDocumentMoniker": "BlazorApi\\Services\\WeatherChatService.cs",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\Services\\WeatherChatService.cs",
+              "RelativeToolTip": "BlazorApi\\Services\\WeatherChatService.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAcwKkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T04:21:11.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\appsettings.json",
+              "RelativeDocumentMoniker": "BlazorApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\appsettings.json",
+              "RelativeToolTip": "BlazorApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-29T10:20:22.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.402\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.402\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.402\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.402\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAAwAkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-01-28T18:12:03.398Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

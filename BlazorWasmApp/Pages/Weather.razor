@@ -1,0 +1,204 @@
+﻿@page "/weather"
+@inject WeatherService WeatherService
+@inject FavoriteService FavoriteService
+@inject ISnackbar Snackbar
+@using BlazorWasmApp.Services
+@using BlazorWasmApp.Models
+@using MudBlazor
+
+<div class="weather-container">
+    <h3>Weather App</h3>
+
+    <input @bind="city" placeholder="Enter city name" class="weather-input" />
+    <button @onclick="GetWeather" class="weather-button">Get Weather</button>
+
+    @if (weather != null)
+    {
+        <div class="weather-card">
+            <h4 class="text-xl font-bold">Weather in @weather.name, @weather.sys.country</h4>
+            <p>Temperature: <strong>@weather.main.temp °C</strong></p>
+            <p>Feels Like: @weather.main.feels_like °C</p>
+            <p>Condition: @weather.weather[0].main</p>
+            <p>Description: @weather.weather[0].description</p>
+            <p>Humidity: @weather.main.humidity%</p>
+            <p>Wind: @weather.wind.speed m/s, @weather.wind.deg°</p>
+            <p>Sunrise: @ConvertUnixTime(weather.sys.sunrise)</p>
+            <p>Sunset: @ConvertUnixTime(weather.sys.sunset)</p>
+
+            <button @onclick="AddToFavorites" class="favorite-button">⭐ Add to Favorites</button>
+
+            @if (weather.weather[0].main == "Rain")
+            {
+                <button @onclick="SendRainNotification" class="alert-button">🌧️ Send Rain Alert</button>
+            }
+        </div>
+    }
+
+    @if (forecast != null)
+    {
+        <div class="forecast-container">
+            <h4 class="text-xl font-bold">5-Day Forecast</h4>
+            <ul>
+                @foreach (var item in forecast.list)
+                {
+                    <li>@item.dt_txt - @item.main.temp °C, @item.weather[0].description</li>
+                }
+            </ul>
+        </div>
+    }
+</div>
+
+@code {
+    private string city = "";
+    private WeatherResponse? weather;
+    private ForecastResponse? forecast;
+
+    private async Task GetWeather()
+    {
+        if (string.IsNullOrWhiteSpace(city))
+        {
+            Snackbar.Add("Please enter a city name!", Severity.Warning);
+            return;
+        }
+
+        weather = await WeatherService.GetWeatherAsync(city);
+        forecast = await WeatherService.GetFiveDayForecastAsync(city);
+        
+        if (weather != null)
+        {
+            Snackbar.Add($"Weather data retrieved for {city}", Severity.Info);
+        }
+        else
+        {
+            Snackbar.Add("City not found or API error!", Severity.Error);
+        }
+    }
+
+    private async Task AddToFavorites()
+    {
+        if (!string.IsNullOrWhiteSpace(city))
+        {
+            bool added = await FavoriteService.AddFavoriteCityAsync(city);
+
+            if (added)
+            {
+                Snackbar.Add($"{city} added to favorites!", Severity.Success);
+            }
+            else
+            {
+                Snackbar.Add($"{city} is already in your favorites.", Severity.Warning);
+            }
+        }
+    }
+
+    private async Task SendRainNotification()
+    {
+        if (weather != null)
+        {
+            await WeatherService.SendRainNotificationEmailAsync("user@example.com", city, weather.weather[0].description);
+            Snackbar.Add("Rain alert sent successfully!", Severity.Success);
+        }
+    }
+
+    private string ConvertUnixTime(int unixTime)
+    {
+        return DateTimeOffset.FromUnixTimeSeconds(unixTime).ToLocalTime().ToString("HH:mm");
+    }
+}
+
+<style>
+    .weather-container {
+        max-width: 600px;
+        margin: 30px auto;
+        padding: 20px;
+        background: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+        .weather-container h3 {
+            color: #007BFF;
+            margin-bottom: 15px;
+        }
+
+    .weather-input {
+        width: 70%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .weather-button {
+        padding: 8px 15px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+        .weather-button:hover {
+            background-color: #0056b3;
+        }
+
+    .weather-card {
+        margin-top: 20px;
+        padding: 15px;
+        background: #eef2f7;
+        border-radius: 10px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+        .weather-card p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+    .favorite-button {
+        padding: 8px 15px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+        .favorite-button:hover {
+            background-color: #218838;
+        }
+
+    .alert-button {
+        padding: 8px 15px;
+        background-color: #dc3545;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+        .alert-button:hover {
+            background-color: #c82333;
+        }
+
+    .forecast-container {
+        margin-top: 20px;
+        padding: 10px;
+        background: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+        .forecast-container ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .forecast-container li {
+            padding: 5px;
+            border-bottom: 1px solid #ddd;
+        }
+</style>

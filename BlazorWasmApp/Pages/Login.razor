@@ -1,0 +1,127 @@
+﻿@page "/login"
+@inject AuthService AuthService
+@inject NavigationManager Navigation
+
+<div class="login-container">
+    <h3>Login</h3>
+
+    <EditForm Model="this" OnValidSubmit="HandleLogin">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div>
+            <label>Email:</label>
+            <InputText @bind-Value="Email" class="form-control" />
+        </div>
+        <div>
+            <label>Password:</label>
+            <InputText @bind-Value="Password" type="password" class="form-control" />
+        </div>
+        <div class="make-down">
+            <p>
+                Don't have an account?
+                <a href="register" class="register-link">Register</a>
+            </p>
+        </div>
+
+        <button type="submit" class="login-btn" disabled="@IsLoading">
+            @(IsLoading ? "Logging in..." : "Login")
+        </button>
+        @if (IsLoading)
+        {
+            <div class="spinner"></div>
+        }
+    </EditForm>
+
+    @if (!string.IsNullOrEmpty(Message))
+    {
+        <p class="error-message">@Message</p>
+    }
+</div>
+
+@code {
+    private string Email { get; set; } = string.Empty;
+    private string Password { get; set; } = string.Empty;
+    private string Message { get; set; } = string.Empty;
+    private bool IsLoading { get; set; } = false;
+
+    private async Task HandleLogin()
+    {
+        IsLoading = true;
+        StateHasChanged();
+        
+        bool isSuccess = await AuthService.LoginAsync(Email, Password);
+        IsLoading = false;
+        
+        if (isSuccess)
+        {
+            Navigation.NavigateTo("/");
+        }
+        else
+        {
+            Message = "Login failed. Please check your credentials.";
+        }
+    }
+}
+
+<style>
+    /* Center the login form */
+    .login-container {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+        background: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+        /* Title */
+        .login-container h3 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        /* Input Fields */
+        .login-container label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+            color: #555;
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+    /* Button Styling */
+    .login-btn {
+        width: 100%;
+        padding: 10px;
+        margin-top: 15px;
+        background: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+        .login-btn:hover {
+            background: #0056b3;
+        }
+
+    /* Error Message */
+    .error-message {
+        color: red;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+</style>

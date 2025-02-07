@@ -1,0 +1,117 @@
+﻿@page "/"
+@inject FavoriteService FavoriteService
+@inject WeatherService WeatherService
+@using BlazorWasmApp.Models
+@using BlazorWasmApp.Services
+
+<div class="home-container">
+    <h1 class="home-header">Home</h1>
+
+    @if (IsLoading)
+    {
+        <p>Loading...</p>
+    }
+    else if (!string.IsNullOrEmpty(HomeCity))
+    {
+        <div class="weather-box">
+            <h2 class="text-xl font-semibold">🏠 Home City: @HomeCity</h2>
+
+            @if (weather != null)
+            {
+                <p class="weather-info">🌡️ Temperature: <strong>@weather.main.temp °C</strong></p>
+                <p class="weather-info">🌬️ Wind: @weather.wind.speed m/s</p>
+                <p class="weather-info">🌦️ Condition: @weather.weather[0].description</p>
+            }
+            else
+            {
+                <p class="weather-info">❌ Unable to fetch weather data.</p>
+            }
+
+            <button @onclick="RemoveHomeCity" class="remove-home-button">Remove Home City</button>
+        </div>
+    }
+    else
+    {
+        <p>No home city set. Please select a home city from favorites.</p>
+    }
+</div>
+
+@code {
+    private string HomeCity = string.Empty;
+    private WeatherResponse? weather;
+    private bool IsLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadHomeCity();
+    }
+
+    private async Task LoadHomeCity()
+    {
+        IsLoading = true;
+        var homeCityData = await FavoriteService.GetHomeCityAsync();
+
+        if (homeCityData != null)
+        {
+            HomeCity = homeCityData.CityName;
+            weather = await WeatherService.GetWeatherAsync(HomeCity);
+        }
+
+        IsLoading = false;
+    }
+
+    private async Task RemoveHomeCity()
+    {
+        if (!string.IsNullOrEmpty(HomeCity))
+        {
+            await FavoriteService.RemoveFavoriteCityAsync(HomeCity);
+            HomeCity = string.Empty;
+            weather = null;
+        }
+    }
+}
+<style>
+    .home-container {
+        max-width: 600px;
+        margin: 30px auto;
+        padding: 20px;
+        background: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .home-header {
+        color: #007BFF;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .weather-box {
+        padding: 15px;
+        background: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .weather-info {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+    .remove-home-button {
+        display: block;
+        margin-top: 15px;
+        padding: 8px 15px;
+        background-color: #dc3545;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+        .remove-home-button:hover {
+            background-color: #c82333;
+        }
+
+</style>

@@ -1,0 +1,143 @@
+﻿@page "/register"
+@inject AuthService AuthService
+@inject NavigationManager Navigation
+
+<div class="register-container">
+    <h3>Register</h3>
+
+    <EditForm Model="this" OnValidSubmit="HandleRegister" class="register-form">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div>
+            <label>Email:</label>
+            <InputText @bind-Value="Email" class="form-control" />
+        </div>
+        <div>
+            <label>Password:</label>
+            <InputText @bind-Value="Password" type="password" class="form-control" />
+        </div>
+        <div class="make-down">
+            <p>
+                Already have an account?
+                <a href="login" class="register-link">Login</a>
+            </p>
+        </div>
+        <button type="submit" class="register-button" disabled="@IsLoading">
+            @(IsLoading ? "Registering..." : "Register")
+        </button>
+        @if (IsLoading)
+        {
+            <div class="spinner"></div>
+        }
+    </EditForm>
+
+    @if (!string.IsNullOrEmpty(Message))
+    {
+        <p class="register-message">@Message</p>
+    }
+</div>
+
+@code {
+    private string Email { get; set; } = string.Empty;
+    private string Password { get; set; } = string.Empty;
+    private string Message { get; set; } = string.Empty;
+    private bool IsLoading { get; set; } = false;
+
+    private async Task HandleRegister()
+    {
+        IsLoading = true;
+        StateHasChanged();
+        
+        bool isSuccess = await AuthService.RegisterAsync(Email, Password);
+        IsLoading = false;
+
+        if (isSuccess)
+        {
+            Navigation.NavigateTo("/login");
+        }
+        else
+        {
+            Message = "Registration failed. Please try again.";
+        }
+    }
+}
+
+
+<style>
+     .register-container {
+         max-width: 400px;
+         margin: 50px auto;
+         padding: 20px;
+         background: #f9f9f9;
+         border-radius: 10px;
+         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+         text-align: center;
+     }
+
+         .register-container h3 {
+             color: #007BFF;
+             margin-bottom: 20px;
+         }
+
+     .register-form label {
+         display: block;
+         margin-top: 10px;
+         font-weight: bold;
+         text-align: left;
+     }
+     .make-down{
+         padding-top:10px;
+     }
+
+     .register-form input {
+         width: 100%;
+         padding: 8px;
+         margin-top: 5px;
+         border: 1px solid #ccc;
+         border-radius: 5px;
+     }
+
+     .register-button {
+         width: 100%;
+         background-color: #007BFF;
+         color: white;
+         padding: 10px;
+         margin-top: 15px;
+         border: none;
+         border-radius: 5px;
+         cursor: pointer;
+         transition: background 0.3s;
+     }
+
+         .register-button:hover {
+             background-color: #0056b3;
+         }
+
+     .register-message {
+         margin-top: 15px;
+         color: red;
+         font-weight: bold;
+     }
+
+    .spinner {
+        margin: 10px auto;
+        border: 4px solid rgba(0, 0, 0, 0.1);
+        border-left-color: #007BFF;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+    }
+
+    @@keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+</style>

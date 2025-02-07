@@ -1,0 +1,156 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager Navigation
+@inject AuthService AuthService
+
+<PageTitle>BlazorWasmApp</PageTitle>
+<header class="app-header">
+    <div class="logo">
+        <span class="icon">🌤️</span>
+        <h1>BlazorWasmApp</h1>
+    </div>
+
+    <div class="auth-section">
+        @if (IsAuthenticated)
+        {
+            <div class="user-menu">
+                <span class="user-email">👤 @UserEmail</span>
+                <button @onclick="Logout" class="logout-btn">Logout</button>
+            </div>
+        }
+        else
+        {
+            <button @onclick="GoToLogin" class="login-btn">Login</button>
+        }
+    </div>
+</header>
+
+<div class="page-layout">
+    <aside class="sidebar">
+        <NavMenu />
+    </aside>
+    <main class="content">
+        @Body
+    </main>
+</div>
+
+
+@code {
+    private bool IsAuthenticated;
+    private string UserEmail = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        AuthService.OnAuthStateChanged += AuthStateChanged;
+        await LoadUser();
+    }
+
+    private async Task LoadUser()
+    {
+        UserEmail = await AuthService.GetUserEmailAsync() ?? string.Empty;
+        IsAuthenticated = !string.IsNullOrEmpty(UserEmail);
+        StateHasChanged(); // Update UI without refresh
+    }
+
+    private void AuthStateChanged()
+    {
+        InvokeAsync(LoadUser); // Ensure UI updates when auth state changes
+    }
+
+    private async Task Logout()
+    {
+        await AuthService.LogoutAsync();
+    }
+
+    private void GoToLogin()
+    {
+        Navigation.NavigateTo("/login");
+    }
+
+    public void Dispose()
+    {
+        AuthService.OnAuthStateChanged -= AuthStateChanged;
+    }
+}
+<style>
+    /* Header Styling */
+    .app-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1976D2; /* Blue color */
+        color: white;
+        padding: 12px 24px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Logo Section */
+    .logo {
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+        .logo .icon {
+            font-size: 28px;
+            margin-right: 8px;
+        }
+
+    /* Authentication Section */
+    .auth-section {
+        display: flex;
+        align-items: center;
+    }
+
+    /* User Menu */
+    .user-menu {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .user-email {
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 6px 12px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+    /* Buttons */
+    .login-btn, .logout-btn {
+        background-color: #FF5252;
+        border: none;
+        padding: 8px 16px;
+        color: white;
+        border-radius: 6px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .login-btn {
+        background-color: #4CAF50; /* Green */
+    }
+
+        .logout-btn:hover, .login-btn:hover {
+            opacity: 0.8;
+        }
+
+    /* Layout */
+    .page-layout {
+        display: flex;
+        min-height: 100vh;
+    }
+
+    .sidebar {
+        width: 250px;
+        background-color: #F5F5F5;
+        padding: 16px;
+    }
+
+    .content {
+        flex: 1;
+        padding: 24px;
+    }
+
+</style>
