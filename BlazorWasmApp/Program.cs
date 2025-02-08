@@ -24,6 +24,7 @@ builder.Services.AddScoped<WeatherService>();
 builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<FavoriteService>();
 builder.Services.AddMudServices();
+builder.Services.AddScoped<ToasterService>();
 
 
 // Configure Supabase Authentication

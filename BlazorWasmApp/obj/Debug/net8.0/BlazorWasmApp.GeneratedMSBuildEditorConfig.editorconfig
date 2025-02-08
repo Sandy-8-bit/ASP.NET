@@ -16,55 +16,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazorWasmApp
 build_property.RootNamespace = BlazorWasmApp
-build_property.ProjectDir = C:\Users\santh\source\repos\Fullstack-Dotnet\BlazorWasmApp\
+build_property.ProjectDir = C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\santh\source\repos\Fullstack-Dotnet\BlazorWasmApp
+build_property.MSBuildProjectDirectory = C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/santh/source/repos/Fullstack-Dotnet/BlazorWasmApp/App.razor]
+[C:/Users/santh/source/repos/Fullstack-Dotnet/ASP.NET/BlazorWasmApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/santh/source/repos/Fullstack-Dotnet/BlazorWasmApp/Layout/MudSnackbarProvider.razor]
+[C:/Users/santh/source/repos/Fullstack-Dotnet/ASP.NET/BlazorWasmApp/Layout/MudSnackbarProvider.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE11ZFNuYWNrYmFyUHJvdmlkZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/santh/source/repos/Fullstack-Dotnet/BlazorWasmApp/Pages/Counter.razor]
+[C:/Users/santh/source/repos/Fullstack-Dotnet/ASP.NET/BlazorWasmApp/Pages/Chatbot.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdGJvdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/santh/source/repos/Fullstack-Dotnet/ASP.NET/BlazorWasmApp/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/santh/source/repos/Fullstack-Dotnet/BlazorWasmApp/Pages/Favouritecitis.razor]
+[C:/Users/santh/source/repos/Fullstack-Dotnet/ASP.NET/BlazorWasmApp/Pages/Favouritecitis.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmF2b3VyaXRlY2l0aXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/santh/source/repos/Fullstack-Dotnet/BlazorWasmApp/Pages/Home.razor]
+[C:/Users/santh/source/repos/Fullstack-Dotnet/ASP.NET/BlazorWasmApp/Pages/GeminiChat.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VtaW5pQ2hhdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/santh/source/repos/Fullstack-Dotnet/ASP.NET/BlazorWasmApp/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/santh/source/repos/Fullstack-Dotnet/BlazorWasmApp/Pages/Login.razor]
+[C:/Users/santh/source/repos/Fullstack-Dotnet/ASP.NET/BlazorWasmApp/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/santh/source/repos/Fullstack-Dotnet/BlazorWasmApp/Pages/Register.razor]
+[C:/Users/santh/source/repos/Fullstack-Dotnet/ASP.NET/BlazorWasmApp/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/santh/source/repos/Fullstack-Dotnet/BlazorWasmApp/Pages/Weather.razor]
+[C:/Users/santh/source/repos/Fullstack-Dotnet/ASP.NET/BlazorWasmApp/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/santh/source/repos/Fullstack-Dotnet/BlazorWasmApp/_Imports.razor]
+[C:/Users/santh/source/repos/Fullstack-Dotnet/ASP.NET/BlazorWasmApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/santh/source/repos/Fullstack-Dotnet/BlazorWasmApp/Layout/MainLayout.razor]
+[C:/Users/santh/source/repos/Fullstack-Dotnet/ASP.NET/BlazorWasmApp/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ms9e5pf4em
 
-[C:/Users/santh/source/repos/Fullstack-Dotnet/BlazorWasmApp/Layout/NavMenu.razor]
+[C:/Users/santh/source/repos/Fullstack-Dotnet/ASP.NET/BlazorWasmApp/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-qnyd2smmz2

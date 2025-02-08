@@ -2,6 +2,7 @@
 @inject WeatherService WeatherService
 @inject FavoriteService FavoriteService
 @inject ISnackbar Snackbar
+@inject ToasterService Toaster
 @using BlazorWasmApp.Services
 @using BlazorWasmApp.Models
 @using MudBlazor
@@ -58,19 +59,22 @@
         if (string.IsNullOrWhiteSpace(city))
         {
             Snackbar.Add("Please enter a city name!", Severity.Warning);
+            await Toaster.ShowToast("Please enter a city name!", "warning");
             return;
         }
 
         weather = await WeatherService.GetWeatherAsync(city);
         forecast = await WeatherService.GetFiveDayForecastAsync(city);
-        
+
         if (weather != null)
         {
             Snackbar.Add($"Weather data retrieved for {city}", Severity.Info);
+            await Toaster.ShowToast($"Weather data retrieved for {city}", "success");
         }
         else
         {
             Snackbar.Add("City not found or API error!", Severity.Error);
+            await Toaster.ShowToast("City not found or API error!", "error");
         }
     }
 
@@ -83,10 +87,12 @@
             if (added)
             {
                 Snackbar.Add($"{city} added to favorites!", Severity.Success);
+                await Toaster.ShowToast($"{city} added to favorites!", "success");
             }
             else
             {
                 Snackbar.Add($"{city} is already in your favorites.", Severity.Warning);
+                await Toaster.ShowToast($"{city} is already in your favorites.", "warning");
             }
         }
     }
@@ -97,6 +103,7 @@
         {
             await WeatherService.SendRainNotificationEmailAsync("user@example.com", city, weather.weather[0].description);
             Snackbar.Add("Rain alert sent successfully!", Severity.Success);
+            await Toaster.ShowToast("Rain alert sent successfully!", "success");
         }
     }
 
@@ -105,6 +112,7 @@
         return DateTimeOffset.FromUnixTimeSeconds(unixTime).ToLocalTime().ToString("HH:mm");
     }
 }
+
 
 <style>
     .weather-container {

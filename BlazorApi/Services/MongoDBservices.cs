@@ -151,5 +151,5 @@ public class FavoriteCity
     [BsonElement("IsHomeCity")]
     public bool IsHomeCity { get; set; }
 
-    public string? City { get; internal set; }
+   
 }

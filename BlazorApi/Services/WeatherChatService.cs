@@ -1,6 +1,8 @@
 using BlazorWasmApp.Models;
 using System.Linq;
 using System.Text.Json;
+using System.Net.Http.Json;
+
 namespace WeatherApp.Services
 {
     public class WeatherChatService
@@ -18,13 +20,18 @@ namespace WeatherApp.Services
 
         private class GeminiRequest
         {
-            public List<ChatMessage> Messages { get; set; } = new();
+            public List<ChatMessage> contents { get; set; } = new();
         }
 
         private class ChatMessage
         {
-            public string? Role { get; set; }
-            public string? Content { get; set; }
+            public string role { get; set; } = string.Empty;
+            public List<ContentPart> parts { get; set; } = new();
+        }
+
+        private class ContentPart
+        {
+            public string text { get; set; } = string.Empty;
         }
 
         public async Task<(string Message, WeatherResponse? Weather)> ProcessMessageAsync(string userMessage)
@@ -88,13 +95,13 @@ Cloud Cover: {weather.clouds.all}%";
 Keep responses friendly and conversational.";
 
                 var messages = new List<ChatMessage>
-            {
-                new ChatMessage { Role = "system", Content = systemPrompt },
-                new ChatMessage { Role = "system", Content = "Current weather data:\n" + weatherContext },
-                new ChatMessage { Role = "user", Content = userMessage }
-            };
+                {
+                    new ChatMessage { role = "user", parts = new List<ContentPart> { new ContentPart { text = systemPrompt } } },
+                    new ChatMessage { role = "user", parts = new List<ContentPart> { new ContentPart { text = "Current weather data:\n" + weatherContext } } },
+                    new ChatMessage { role = "user", parts = new List<ContentPart> { new ContentPart { text = userMessage } } }
+                };
 
-                var request = new GeminiRequest { Messages = messages };
+                var request = new GeminiRequest { contents = messages };
 
                 var response = await _httpClient.PostAsJsonAsync(
                     $"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={_geminiApiKey}",
@@ -102,17 +109,18 @@ Keep responses friendly and conversational.";
 
                 if (!response.IsSuccessStatusCode)
                 {
-                    // Fallback to basic weather response if Gemini fails
+                    Console.WriteLine($"Gemini API error: {response.StatusCode}");
                     return GenerateBasicWeatherResponse(weatherContext);
                 }
 
                 var content = await response.Content.ReadFromJsonAsync<JsonDocument>();
-                var responseText = content?.RootElement
-                    .GetProperty("candidates")[0]
-                    .GetProperty("content")
-                    .GetProperty("parts")[0]
-                    .GetProperty("text")
-                    .GetString();
+
+                if (content == null || !content.RootElement.TryGetProperty("candidates", out var candidates) || candidates.GetArrayLength() == 0)
+                {
+                    return GenerateBasicWeatherResponse(weatherContext);
+                }
+
+                var responseText = candidates[0].GetProperty("content").GetProperty("parts")[0].GetProperty("text").GetString();
 
                 return responseText ?? GenerateBasicWeatherResponse(weatherContext);
             }
@@ -125,7 +133,6 @@ Keep responses friendly and conversational.";
 
         private string GenerateBasicWeatherResponse(string weatherContext)
         {
-            // Parse the weather context back into meaningful parts
             var lines = weatherContext.Split('\n');
             var basicInfo = string.Join("\n", lines.Take(4));
 
@@ -135,18 +142,18 @@ Keep responses friendly and conversational.";
         private string ExtractLocation(string message)
         {
             string[] patterns = {
-            "weather in ",
-            "weather at ",
-            "weather for ",
-            "temperature in ",
-            "temperature at ",
-            "how's the weather in ",
-            "what's the weather in ",
-            "what is the weather in ",
-            "how is the weather in ",
-            "forecast for ",
-            "conditions in "
-        };
+                "weather in ",
+                "weather at ",
+                "weather for ",
+                "temperature in ",
+                "temperature at ",
+                "how's the weather in ",
+                "what's the weather in ",
+                "what is the weather in ",
+                "how is the weather in ",
+                "forecast for ",
+                "conditions in "
+            };
 
             foreach (var pattern in patterns)
             {
@@ -165,5 +172,4 @@ Keep responses friendly and conversational.";
             return string.Empty;
         }
     }
-
 }

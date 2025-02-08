@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QRjMpWaFkk0=",
+  "dgSpecHash": "YCFYM1RYGvQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorApi\\BlazorApi.csproj",
+  "projectFilePath": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorApi\\BlazorApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\santh\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\santh\\.nuget\\packages\\mailkit\\2.10.1\\mailkit.2.10.1.nupkg.sha512",

@@ -1,6 +1,7 @@
 ﻿@page "/favorites"
 @using BlazorWasmApp.Models
 @inject FavoriteService FavoriteService
+@inject ToasterService Toaster
 
 <div class="favorites-container">
     <h3 class="favorites-header">Favorite Cities</h3>
@@ -60,6 +61,7 @@
         {
             await LoadFavorites();
             NewCity = string.Empty;
+            await Toaster.ShowToast("added succesfully","success");
         }
     }
 
@@ -68,6 +70,7 @@
         if (await FavoriteService.RemoveFavoriteCityAsync(city))
         {
             await LoadFavorites();
+            await Toaster.ShowToast("  city removed successfully", "success");
         }
     }
 
@@ -76,6 +79,7 @@
         if (await FavoriteService.SetHomeCityAsync(city))
         {
             await LoadFavorites();
+            await Toaster.ShowToast("Home city set succesfully", "success");
         }
     }
 }

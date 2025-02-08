@@ -1,6 +1,7 @@
 ﻿@page "/login"
 @inject AuthService AuthService
 @inject NavigationManager Navigation
+@inject ToasterService Toaster
 
 <div class="login-container">
     <h3>Login</h3>
@@ -13,10 +14,12 @@
             <label>Email:</label>
             <InputText @bind-Value="Email" class="form-control" />
         </div>
+
         <div>
             <label>Password:</label>
             <InputText @bind-Value="Password" type="password" class="form-control" />
         </div>
+
         <div class="make-down">
             <p>
                 Don't have an account?
@@ -49,17 +52,19 @@
     {
         IsLoading = true;
         StateHasChanged();
-        
+
         bool isSuccess = await AuthService.LoginAsync(Email, Password);
         IsLoading = false;
-        
+
         if (isSuccess)
         {
             Navigation.NavigateTo("/");
+            await Toaster.ShowToast("Logged in succesfully","success");
         }
         else
         {
             Message = "Login failed. Please check your credentials.";
+            await Toaster.ShowToast("Failed to login","error");
         }
     }
 }

@@ -9,6 +9,7 @@ builder.Services.AddHttpClient();
 builder.Services.AddSingleton<SupabaseAuthService>();
 builder.Services.AddSingleton<MongoDBService>();
 builder.Services.AddSingleton<WeatherService>();
+builder.Services.AddSingleton<GeminiChatService>();
 builder.Services.AddSingleton<WeatherChatService>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

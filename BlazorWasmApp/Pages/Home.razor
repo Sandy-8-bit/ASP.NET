@@ -3,7 +3,7 @@
 @inject WeatherService WeatherService
 @using BlazorWasmApp.Models
 @using BlazorWasmApp.Services
-
+@inject ToasterService Toaster
 <div class="home-container">
     <h1 class="home-header">Home</h1>
 
@@ -32,7 +32,7 @@
     }
     else
     {
-        <p>No home city set. Please select a home city from favorites.</p>
+        <p>No home city set. Please login to set the home city .</p>
     }
 </div>
 
@@ -67,6 +67,7 @@
             await FavoriteService.RemoveFavoriteCityAsync(HomeCity);
             HomeCity = string.Empty;
             weather = null;
+            await Toaster.ShowToast(" Home city removed successfully", "success");
         }
     }
 }

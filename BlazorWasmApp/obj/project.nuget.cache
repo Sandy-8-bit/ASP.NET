@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jpjX1FGaVxg=",
+  "dgSpecHash": "9yzlGaQnOFE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\BlazorWasmApp\\BlazorWasmApp.csproj",
+  "projectFilePath": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\BlazorWasmApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\santh\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\santh\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.12\\microsoft.aspnetcore.authorization.8.0.12.nupkg.sha512",

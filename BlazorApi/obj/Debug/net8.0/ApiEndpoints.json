@@ -166,6 +166,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "GeminiChatController",
+    "Method": "GetChatbotResponse",
+    "RelativePath": "api/geminichat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ChatRequestt",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WeatherApp.Controllers.WeatherController",
     "Method": "GetWeather",
     "RelativePath": "api/weather/{city}",
@@ -353,6 +369,22 @@
       {
         "Name": "request",
         "Type": "WeatherApp.Services.RainNotificationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WeatherChatController",
+    "Method": "GetChatbotResponse",
+    "RelativePath": "api/weatherchat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ChatRequest",
         "IsRequired": true
       }
     ],

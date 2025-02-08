@@ -1,6 +1,7 @@
 ﻿@page "/register"
 @inject AuthService AuthService
 @inject NavigationManager Navigation
+@inject ToasterService Toaster
 
 <div class="register-container">
     <h3>Register</h3>
@@ -48,17 +49,19 @@
     {
         IsLoading = true;
         StateHasChanged();
-        
+
         bool isSuccess = await AuthService.RegisterAsync(Email, Password);
         IsLoading = false;
 
         if (isSuccess)
         {
             Navigation.NavigateTo("/login");
+            await Toaster.ShowToast("Registerd succesfully!", "success");
         }
         else
         {
             Message = "Registration failed. Please try again.";
+            await Toaster.ShowToast("Failed to Register!", "error");
         }
     }
 }
