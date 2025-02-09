@@ -89,15 +89,21 @@ public class MongoDBService
     {
         try
         {
-            var filter = Builders<FavoriteCity>.Filter.Eq(x => x.UserId, userId);
+            var filter = Builders<FavoriteCity>.Filter.And(
+                Builders<FavoriteCity>.Filter.Eq(x => x.UserId, userId),
+                Builders<FavoriteCity>.Filter.Eq(x => x.IsHomeCity, true)
+            );
+
             var update = Builders<FavoriteCity>.Update.Set(x => x.IsHomeCity, false);
-            await _favoriteCities.UpdateOneAsync(filter & Builders<FavoriteCity>.Filter.Eq(x => x.IsHomeCity, true), update);
+
+            await _favoriteCities.UpdateOneAsync(filter, update);
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Error removing home city: {ex.Message}");
         }
     }
+
 
     // Get the home city for a specific user
     public async Task<FavoriteCity?> GetHomeCityAsync(string userId)

@@ -12,12 +12,12 @@
 
         <div>
             <label>Email:</label>
-            <InputText @bind-Value="Email" class="form-control" />
+            <InputText @bind-Value="Email" class="form-control" disabled="@IsLoading" />
         </div>
 
         <div>
             <label>Password:</label>
-            <InputText @bind-Value="Password" type="password" class="form-control" />
+            <InputText @bind-Value="Password" type="password" class="form-control" disabled="@IsLoading" />
         </div>
 
         <div class="make-down">
@@ -25,11 +25,15 @@
                 Don't have an account?
                 <a href="register" class="register-link">Register</a>
             </p>
+            <p>
+                <a href="recover-password"> Password Recover</a>
+            </p>
         </div>
 
         <button type="submit" class="login-btn" disabled="@IsLoading">
             @(IsLoading ? "Logging in..." : "Login")
         </button>
+
         @if (IsLoading)
         {
             <div class="spinner"></div>
@@ -48,6 +52,15 @@
     private string Message { get; set; } = string.Empty;
     private bool IsLoading { get; set; } = false;
 
+    protected override async Task OnInitializedAsync()
+    {
+        var isLoggedIn = await AuthService.IsUserLoggedIn();
+        if (isLoggedIn)
+        {
+            Navigation.NavigateTo("/");
+        }
+    }
+
     private async Task HandleLogin()
     {
         IsLoading = true;
@@ -59,12 +72,12 @@
         if (isSuccess)
         {
             Navigation.NavigateTo("/");
-            await Toaster.ShowToast("Logged in succesfully","success");
+            await Toaster.ShowToast("Logged in successfully", "success");
         }
         else
         {
             Message = "Login failed. Please check your credentials.";
-            await Toaster.ShowToast("Failed to login","error");
+            await Toaster.ShowToast("Failed to login", "error");
         }
     }
 }
@@ -120,6 +133,11 @@
 
         .login-btn:hover {
             background: #0056b3;
+        }
+
+        .login-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
         }
 
     /* Error Message */

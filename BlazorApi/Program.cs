@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using WeatherApp.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,7 @@ builder.Services.AddSingleton<MongoDBService>();
 builder.Services.AddSingleton<WeatherService>();
 builder.Services.AddSingleton<GeminiChatService>();
 builder.Services.AddSingleton<WeatherChatService>();
+builder.Services.AddHttpContextAccessor(); // 👈 This is required for IHttpContextAccessor
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -23,6 +25,14 @@ builder.Services.AddCors(options =>
                         .AllowAnyHeader()
                         .AllowCredentials());
 });
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.Cookie.HttpOnly = true;
+        options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+        options.Cookie.SameSite = SameSiteMode.Strict;
+    });
 
 var app = builder.Build();
 

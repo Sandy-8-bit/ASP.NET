@@ -118,3 +118,6 @@ C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorApi\obj\Debug\net8.0\
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorApi\obj\Debug\net8.0\BlazorApi.pdb
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorApi\obj\Debug\net8.0\BlazorApi.genruntimeconfig.cache
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorApi\obj\Debug\net8.0\ref\BlazorApi.dll
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

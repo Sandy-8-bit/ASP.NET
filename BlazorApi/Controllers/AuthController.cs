@@ -1,6 +1,9 @@
-using Microsoft.AspNetCore.Cors;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Supabase.Gotrue;
+using System;
+using System.Threading.Tasks;
 
 namespace WeatherApp.Controllers
 {
@@ -16,23 +19,24 @@ namespace WeatherApp.Controllers
             _authService = authService;
         }
 
-        // Get the current user details
+        // ? Get the current user from the authentication session
         [HttpGet("current-user")]
-        public ActionResult<object> GetCurrentUser()
+        public async Task<IActionResult> GetCurrentUser()
         {
-            var user = _authService.GetCurrentUser();
-            if (user == null)
+            var session = await _authService.GetSessionAsync();
+
+            if (session == null || session.User == null)
                 return Unauthorized(new { message = "No user is currently logged in." });
 
             return Ok(new
             {
-                user.Id,
-                user.Email,
-                user.UserMetadata
+                session.User.Id,
+                session.User.Email,
+                session.User.UserMetadata
             });
         }
 
-        // User login
+        // ? User login - stores authentication token in a secure cookie
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginRequest request)
         {
@@ -41,18 +45,32 @@ namespace WeatherApp.Controllers
 
             try
             {
-                var user = await _authService.LoginAsync(request.Email, request.Password);
+                var session = await _authService.LoginAsync(request.Email, request.Password);
 
-                if (user != null)
+                if (session != null && session.User != null)
                 {
+                    // ? Retrieve access token from the session
+                    var accessToken = session.AccessToken;
+
+                    // ? Store authentication token in an HTTP-only cookie
+                    var authCookieOptions = new CookieOptions
+                    {
+                        HttpOnly = true,  // Prevents JavaScript access
+                        Secure = true,    // Ensures HTTPS-only usage
+                        SameSite = SameSiteMode.Strict,
+                        Expires = DateTime.UtcNow.AddDays(7) // Session expires in 7 days
+                    };
+
+                    Response.Cookies.Append("auth_token", accessToken!, authCookieOptions);
+
                     return Ok(new
                     {
                         message = "Login successful.",
                         user = new
                         {
-                            user.Id,
-                            user.Email,
-                            user.UserMetadata
+                            session.User.Id,
+                            session.User.Email,
+                            session.User.UserMetadata
                         }
                     });
                 }
@@ -65,7 +83,26 @@ namespace WeatherApp.Controllers
             }
         }
 
-        // User registration
+        // ? User logout - clears authentication session
+        [HttpPost("logout")]
+        public async Task<IActionResult> Logout()
+        {
+            try
+            {
+                await _authService.LogoutAsync();
+
+                // ? Remove authentication cookie
+                Response.Cookies.Delete("auth_token");
+
+                return Ok(new { message = "Logout successful." });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "An error occurred during logout.", error = ex.Message });
+            }
+        }
+
+        // ? User registration
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterRequest request)
         {
@@ -74,18 +111,18 @@ namespace WeatherApp.Controllers
 
             try
             {
-                var user = await _authService.RegisterAsync(request.Email, request.Password);
+                var session = await _authService.RegisterAsync(request.Email, request.Password);
 
-                if (user != null)
+                if (session != null && session.User != null)
                 {
                     return Ok(new
                     {
                         message = "Registration successful.",
                         user = new
                         {
-                            user.Id,
-                            user.Email,
-                            user.UserMetadata
+                            session.User.Id,
+                            session.User.Email,
+                            session.User.UserMetadata
                         }
                     });
                 }
@@ -98,22 +135,7 @@ namespace WeatherApp.Controllers
             }
         }
 
-        // User logout
-        [HttpPost("logout")]
-        public async Task<IActionResult> Logout()
-        {
-            try
-            {
-                await _authService.LogoutAsync();
-                return Ok(new { message = "Logout successful." });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { message = "An error occurred during logout.", error = ex.Message });
-            }
-        }
-
-        // Send password recovery email
+        // ? Send password recovery email
         [HttpPost("recover-password")]
         public async Task<IActionResult> RecoverPassword([FromBody] RecoverPasswordRequest request)
         {
@@ -132,7 +154,7 @@ namespace WeatherApp.Controllers
         }
     }
 
-    // Request models
+    // ? Request models
     public class LoginRequest
     {
         public string? Email { get; set; }

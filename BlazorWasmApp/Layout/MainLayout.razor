@@ -33,9 +33,8 @@
     </main>
 </div>
 
-
 @code {
-    private bool IsAuthenticated;
+    private bool IsAuthenticated = false;
     private string UserEmail = string.Empty;
 
     protected override async Task OnInitializedAsync()
@@ -46,19 +45,20 @@
 
     private async Task LoadUser()
     {
-        UserEmail = await AuthService.GetUserEmailAsync() ?? string.Empty;
-        IsAuthenticated = !string.IsNullOrEmpty(UserEmail);
-        StateHasChanged(); // Update UI without refresh
+        IsAuthenticated = await AuthService.IsUserLoggedIn();
+        UserEmail = IsAuthenticated ? (await AuthService.GetUserEmailAsync() ?? "Unknown User") : string.Empty;
+        StateHasChanged();
     }
 
     private void AuthStateChanged()
     {
-        InvokeAsync(LoadUser); // Ensure UI updates when auth state changes
+        InvokeAsync(LoadUser);
     }
 
     private async Task Logout()
     {
         await AuthService.LogoutAsync();
+        Navigation.NavigateTo("/", forceLoad: true); // Ensure full page reload for cookie-based auth
     }
 
     private void GoToLogin()
@@ -71,6 +71,7 @@
         AuthService.OnAuthStateChanged -= AuthStateChanged;
     }
 }
+
 <style>
     /* Header Styling */
     .app-header {

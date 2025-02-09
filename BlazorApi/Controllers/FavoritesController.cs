@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
-using BlazorWasmApp.Models;
 using WeatherApp.Services;
+using BlazorWasmApp.Models;
 using Microsoft.AspNetCore.Cors;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace WeatherApp.Controllers
 {
@@ -19,17 +21,17 @@ namespace WeatherApp.Controllers
             _authService = authService;
         }
 
-        // Add a city to the favorites list
+        // ? Add a city to favorites
         [HttpPost("{city}")]
         public async Task<ActionResult> AddFavoriteCityAsync(string city)
         {
-            var currentUser = _authService.GetCurrentUser();
+            var currentUser = await _authService.GetCurrentUserAsync();
             if (currentUser == null)
             {
                 return Unauthorized("User not authenticated.");
             }
 
-            var userId = currentUser.Id; // Assuming `Id` is the unique identifier for the user
+            var userId = currentUser.Id;
             if (string.IsNullOrEmpty(city))
             {
                 return BadRequest("City name cannot be empty.");
@@ -37,26 +39,25 @@ namespace WeatherApp.Controllers
 
             try
             {
-
-                var isAlreadyFavourite = await _mongoDBService.isFavouritecityAsync(userId!, city);
-                if (isAlreadyFavourite)
+                var isAlreadyFavorite = await _mongoDBService.isFavouritecityAsync(userId!, city);
+                if (isAlreadyFavorite)
                 {
-                    return Conflict($"{city} is Already in Your Favourtite");
+                    return Conflict($"{city} is already in your favorites.");
                 }
                 await _mongoDBService.AddFavoriteCityAsync(userId!, city);
                 return Ok($"{city} added to favorites.");
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"An error occurred while adding the city: {ex.Message}");
+                return StatusCode(500, $"An error occurred: {ex.Message}");
             }
         }
 
-        // Retrieve all favorite cities for the current user
+        // ? Get all favorite cities
         [HttpGet]
         public async Task<ActionResult<List<FavoriteCity>>> GetFavorites()
         {
-            var currentUser = _authService.GetCurrentUser();
+            var currentUser = await _authService.GetCurrentUserAsync();
             if (currentUser == null)
             {
                 return Unauthorized("User not authenticated.");
@@ -70,15 +71,15 @@ namespace WeatherApp.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"An error occurred while retrieving favorites: {ex.Message}");
+                return StatusCode(500, $"An error occurred: {ex.Message}");
             }
         }
 
-        // Remove a city from the favorites list
+        // ? Remove a city from favorites
         [HttpDelete("{city}")]
         public async Task<ActionResult> RemoveFavoriteCity(string city)
         {
-            var currentUser = _authService.GetCurrentUser();
+            var currentUser = await _authService.GetCurrentUserAsync();
             if (currentUser == null)
             {
                 return Unauthorized("User not authenticated.");
@@ -88,20 +89,19 @@ namespace WeatherApp.Controllers
             try
             {
                 await _mongoDBService.RemoveFavoriteCityAsync(userId!, city);
-
                 return Ok($"{city} removed from favorites.");
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"An error occurred while removing the city: {ex.Message}");
+                return StatusCode(500, $"An error occurred: {ex.Message}");
             }
         }
 
-        // Set a city as the home city
+        // ? Set a city as the home city
         [HttpPost("{city}/home")]
         public async Task<ActionResult> SetHomeCity(string city)
         {
-            var currentUser = _authService.GetCurrentUser();
+            var currentUser = await _authService.GetCurrentUserAsync();
             if (currentUser == null)
             {
                 return Unauthorized("User not authenticated.");
@@ -120,15 +120,15 @@ namespace WeatherApp.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"An error occurred while setting the home city: {ex.Message}");
+                return StatusCode(500, $"An error occurred: {ex.Message}");
             }
         }
 
-        // Get the current home city
+        // ? Get the current home city
         [HttpGet("home")]
         public async Task<ActionResult<FavoriteCity>> GetHomeCity()
         {
-            var currentUser = _authService.GetCurrentUser();
+            var currentUser = await _authService.GetCurrentUserAsync();
             if (currentUser == null)
             {
                 return Unauthorized("User not authenticated.");
@@ -147,15 +147,15 @@ namespace WeatherApp.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"An error occurred while retrieving the home city: {ex.Message}");
+                return StatusCode(500, $"An error occurred: {ex.Message}");
             }
         }
 
-        // Remove the current home city
+        // ? Remove the current home city
         [HttpDelete("home")]
         public async Task<ActionResult> RemoveHomeCity()
         {
-            var currentUser = _authService.GetCurrentUser();
+            var currentUser = await _authService.GetCurrentUserAsync();
             if (currentUser == null)
             {
                 return Unauthorized("User not authenticated.");
@@ -169,7 +169,7 @@ namespace WeatherApp.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"An error occurred while removing the home city: {ex.Message}");
+                return StatusCode(500, $"An error occurred: {ex.Message}");
             }
         }
     }

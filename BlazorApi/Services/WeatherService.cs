@@ -73,12 +73,12 @@ namespace WeatherApp.Services
         {
             if (weather.weather.Any(w => w.main.Equals("Rain", StringComparison.OrdinalIgnoreCase)))
             {
-                var user = _authService.GetCurrentUser();
-                if (user != null)
+                var user = await _authService.GetCurrentUserAsync(); // ? Await the async method
+                if (user != null && !string.IsNullOrEmpty(user.Email))
                 {
                     var rainNotificationRequest = new RainNotificationRequest
                     {
-                        UserEmail = user.Email!,
+                        UserEmail = user.Email!, // ? Now it's correctly awaited
                         CityName = city,
                         Description = weather.weather.FirstOrDefault()?.description ?? "No description available"
                     };
@@ -95,6 +95,7 @@ namespace WeatherApp.Services
                         Console.WriteLine($"Failed to send rain notification email. Status: {response.StatusCode}");
                     }
                 }
+
             }
         }
 
