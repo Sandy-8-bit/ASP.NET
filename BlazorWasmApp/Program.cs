@@ -1,10 +1,12 @@
-using Microsoft.AspNetCore.Components.Web;
+﻿using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using BlazorWasmApp;
 using MudBlazor.Services;
 using Supabase;
 using System.Net.Http;
 using BlazorWasmApp.Services;
+using Blazored.LocalStorage;
+using Supabase.Gotrue;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 
@@ -26,7 +28,7 @@ builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<FavoriteService>();
 builder.Services.AddMudServices();
 builder.Services.AddScoped<ToasterService>();
-
+builder.Services.AddBlazoredLocalStorage(); 
 
 // Configure Supabase Authentication
 builder.Services.AddScoped(sp =>

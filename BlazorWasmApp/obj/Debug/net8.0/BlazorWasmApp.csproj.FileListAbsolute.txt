@@ -2646,7 +2646,11 @@ C:\Users\santh\source\repos\Fullstack-Dotnet\BlazorWasmApp\obj\Debug\net8.0\comp
 C:\Users\santh\source\repos\Fullstack-Dotnet\BlazorWasmApp\obj\Debug\net8.0\compressed\vamy48k798.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\BlazorWasmApp\obj\Debug\net8.0\compressed\zohs0zg5mm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\BlazorWasmApp\obj\Debug\net8.0\compressed\luxkzjovrx.gz
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\Blazored.LocalStorage.wasm
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\BlazorWasmApp.pdb
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\BlazorWasmApp.wasm
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.wasm
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\cs\Microsoft.TestPlatform.CoreUtilities.resources.wasm
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.wasm
@@ -2947,19 +2951,6 @@ C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.wasm
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.wasm
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\ZstdSharp.wasm
-C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\icudt_no_CJK.dat.gz
-C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\dotnet.js.gz
-C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\dotnet.js.map.gz
-C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.8.0.8.80cvijctdx.js.gz
-C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\icudt_CJK.dat.gz
-C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.8.0.8.93i67mqfmb.js.gz
-C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js.gz
-C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\icudt_EFIGS.dat.gz
-C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.wasm.gz
-C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.js.map.gz
-C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
-C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\BlazorWasmApp.pdb
-C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\BlazorWasmApp.wasm
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Threading.Timer.wasm.gz
@@ -2977,6 +2968,7 @@ C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\it\Microsoft.TestPlatform.CommunicationUtilities.resources.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Xml.ReaderWriter.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Console.wasm.gz
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\icudt_no_CJK.dat.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\BlazorWasmApp.pdb.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Memory.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Reflection.DispatchProxy.wasm.gz
@@ -2986,6 +2978,7 @@ C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\de\Microsoft.TestPlatform.CrossPlatEngine.resources.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.wasm.gz
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\dotnet.js.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.wasm.gz
@@ -2998,6 +2991,7 @@ C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Text.Encoding.Extensions.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Net.NameResolution.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.wasm.gz
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\dotnet.js.map.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.wasm.gz
@@ -3022,12 +3016,15 @@ C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.IO.Pipes.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Web.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Text.Json.wasm.gz
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.8.0.8.80cvijctdx.js.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Xml.XmlDocument.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Security.Cryptography.Encoding.wasm.gz
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\icudt_CJK.dat.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Localization.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\it\Microsoft.VisualStudio.TestPlatform.Common.resources.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.wasm.gz
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.8.0.8.93i67mqfmb.js.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\de\Microsoft.TestPlatform.CoreUtilities.resources.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Win32.Registry.wasm.gz
@@ -3063,6 +3060,7 @@ C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Localization.Abstractions.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Reflection.Emit.wasm.gz
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Serialization.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Xml.XPath.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Numerics.wasm.gz
@@ -3162,6 +3160,7 @@ C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\ru\Microsoft.TestPlatform.CoreUtilities.resources.wasm.gz
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\icudt_EFIGS.dat.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Net.Primitives.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Security.SecureString.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\Microsoft.IdentityModel.Tokens.wasm.gz
@@ -3180,6 +3179,7 @@ C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.wasm.gz
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\Blazored.LocalStorage.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Serialization.Xml.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Collections.NonGeneric.wasm.gz
@@ -3203,6 +3203,7 @@ C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\Supabase.Postgrest.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Text.RegularExpressions.wasm.gz
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Threading.ThreadPool.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.IO.Compression.Brotli.wasm.gz
@@ -3247,6 +3248,7 @@ C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Configuration.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Collections.Concurrent.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.wasm.gz
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.js.map.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Xml.Serialization.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Numerics.Vectors.wasm.gz
@@ -3254,9 +3256,12 @@ C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Configuration.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Handles.wasm.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.wasm.gz
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\appsettings.json
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\BlazorWasmApp.staticwebassets.runtime.json
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\BlazorWasmApp.dll
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\BlazorWasmApp.pdb
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\Blazored.LocalStorage.dll
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\DnsClient.dll
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
@@ -3564,6 +3569,7 @@ C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\obj\Debug\net
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\obj\Debug\net8.0\BlazorWasmApp.csproj.CoreCompileInputs.cache
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\obj\Debug\net8.0\BlazorWasmApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\obj\Debug\net8.0\BlazorWasmApp.sourcelink.json
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\obj\Debug\net8.0\webcil\Blazored.LocalStorage.wasm
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\obj\Debug\net8.0\webcil\DnsClient.wasm
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.wasm
@@ -3870,6 +3876,7 @@ C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\obj\Debug\net
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\obj\Debug\net8.0\scopedcss\bundle\BlazorWasmApp.styles.css
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\obj\Debug\net8.0\scopedcss\projectbundle\BlazorWasmApp.bundle.scp.css
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\obj\Debug\net8.0\compressed\cj0c2xx252.gz
+C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\obj\Debug\net8.0\compressed\qxhnc3vzmt.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\obj\Debug\net8.0\compressed\i2i476jjke.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\obj\Debug\net8.0\compressed\5lyucjqsrp.gz
 C:\Users\santh\source\repos\Fullstack-Dotnet\ASP.NET\BlazorWasmApp\obj\Debug\net8.0\compressed\zxoupbclmx.gz

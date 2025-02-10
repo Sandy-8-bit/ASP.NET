@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mGxWi0K8AXygilb4ov68/VjPQcddx8396S2MnQiFYCk=",
+  "Hash": "eRKuZPo0U/lRbdRu7jjFVnSw3P8UcHOhqoeDjhxrL7Q=",
   "Source": "BlazorWasmApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\santh\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\8.0.12\\build\\net8.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm",
+      "SourceId": "BlazorWasmApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\obj\\Debug\\net8.0\\webcil\\Blazored.LocalStorage.wasm"
     },
     {
       "Identity": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorWasmApp.pdb",
@@ -10161,6 +10180,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\obj\\Debug\\net8.0\\compressed\\qxhnc3vzmt.gz",
+      "SourceId": "BlazorWasmApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm"
     },
     {
       "Identity": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\obj\\Debug\\net8.0\\compressed\\r3fszwk0kx.gz",
