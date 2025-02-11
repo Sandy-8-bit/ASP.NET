@@ -7,6 +7,26 @@
       "RelativeMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|solutionrelative:blazorapi\\blazorapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\asp.net\\blazorwasmapp\\pages\\favouritecitis.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\pages\\favouritecitis.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\asp.net\\blazorwasmapp\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\asp.net\\blazorwasmapp\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\asp.net\\blazorwasmapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\asp.net\\blazorwasmapp\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\asp.net\\blazorwasmapp\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -47,32 +67,12 @@
       "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\layout\\emptylayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\asp.net\\blazorwasmapp\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\asp.net\\blazorwasmapp\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\asp.net\\blazorwasmapp\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\asp.net\\blazorwasmapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\asp.net\\blazorwasmapp\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\asp.net\\blazorwasmapp\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\asp.net\\blazorwasmapp\\pages\\favouritecitis.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0871EAD6-7442-F84E-628E-63C98B73EEB9}|BlazorWasmApp\\BlazorWasmApp.csproj|solutionrelative:blazorwasmapp\\pages\\favouritecitis.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C59D83EA-BC37-5786-6E4F-0B99E2E03843}|BlazorApi\\BlazorApi.csproj|c:\\users\\santh\\source\\repos\\fullstack-dotnet\\asp.net\\blazorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -195,35 +195,138 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlazorApi.csproj",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorApi\\BlazorApi.csproj",
+              "RelativeDocumentMoniker": "BlazorApi\\BlazorApi.csproj",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorApi\\BlazorApi.csproj",
+              "RelativeToolTip": "BlazorApi\\BlazorApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-28T18:19:28.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Program.cs",
-              "RelativeDocumentMoniker": "BlazorWasmApp\\Program.cs",
-              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Program.cs",
-              "RelativeToolTip": "BlazorWasmApp\\Program.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAIwDIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:37:31.494Z"
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorWasmApp\\Pages\\Home.razor",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAAQBAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T18:49:19.019Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorApi\\appsettings.json",
-              "RelativeDocumentMoniker": "BlazorApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorApi\\appsettings.json",
-              "RelativeToolTip": "BlazorApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-29T10:20:22.852Z"
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorWasmApp\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T13:04:25.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BlazorWasmApp\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAAAK4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T19:20:38.74Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Weather.razor",
+              "RelativeToolTip": "BlazorWasmApp\\Pages\\Weather.razor",
+              "ViewState": "AgIAABEBAAAAAAAAAAAAABsBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T19:14:40.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Login.razor",
+              "RelativeToolTip": "BlazorWasmApp\\Pages\\Login.razor",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAIwOUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T19:13:29.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\Register.razor",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Register.razor",
+              "RelativeToolTip": "BlazorWasmApp\\Pages\\Register.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T12:39:22.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GeminiChat.razor",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\GeminiChat.razor",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\GeminiChat.razor",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\GeminiChat.razor",
+              "RelativeToolTip": "BlazorWasmApp\\Pages\\GeminiChat.razor",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAAAPwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T13:12:46.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Favouritecitis.razor",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Favouritecitis.razor",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\Favouritecitis.razor",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Favouritecitis.razor",
+              "RelativeToolTip": "BlazorWasmApp\\Pages\\Favouritecitis.razor",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAKwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T18:31:36.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Chatbot.razor",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Chatbot.razor",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\Chatbot.razor",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Chatbot.razor",
+              "RelativeToolTip": "BlazorWasmApp\\Pages\\Chatbot.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANEBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T11:19:06.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "BlazorWasmApp.csproj",
               "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\BlazorWasmApp.csproj",
               "RelativeDocumentMoniker": "BlazorWasmApp\\BlazorWasmApp.csproj",
@@ -236,72 +339,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GeminiChat.razor",
-              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\GeminiChat.razor",
-              "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\GeminiChat.razor",
-              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\GeminiChat.razor",
-              "RelativeToolTip": "BlazorWasmApp\\Pages\\GeminiChat.razor",
-              "ViewState": "AgIAAO0AAAAAAAAAAAAAAPwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-08T13:12:46.883Z",
-              "EditorCaption": ""
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorApi\\appsettings.json",
+              "RelativeDocumentMoniker": "BlazorApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorApi\\appsettings.json",
+              "RelativeToolTip": "BlazorApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-29T10:20:22.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Chatbot.razor",
-              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Chatbot.razor",
-              "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\Chatbot.razor",
-              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Chatbot.razor",
-              "RelativeToolTip": "BlazorWasmApp\\Pages\\Chatbot.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANEBAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-08T11:19:06.374Z",
-              "EditorCaption": ""
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorWasmApp\\Program.cs",
+              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Program.cs",
+              "RelativeToolTip": "BlazorWasmApp\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:37:31.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BlazorApi.csproj",
-              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorApi\\BlazorApi.csproj",
-              "RelativeDocumentMoniker": "BlazorApi\\BlazorApi.csproj",
-              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorApi\\BlazorApi.csproj",
-              "RelativeToolTip": "BlazorApi\\BlazorApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-28T18:19:28.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Home.razor",
-              "RelativeToolTip": "BlazorWasmApp\\Pages\\Home.razor",
-              "ViewState": "AgIAAPgAAAAAAAAAAAAAwAQBAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-28T18:49:19.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "BlazorWasmApp\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "BlazorWasmApp\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-07T13:04:25.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "RecoverPassword.razor",
               "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\RecoverPassword.razor",
               "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\RecoverPassword.razor",
@@ -313,31 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "BlazorWasmApp\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "BlazorWasmApp\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-28T19:20:38.74Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Register.razor",
-              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Register.razor",
-              "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\Register.razor",
-              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Register.razor",
-              "RelativeToolTip": "BlazorWasmApp\\Pages\\Register.razor",
-              "ViewState": "AgIAAH8AAAAAAAAAAAArwIwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-07T12:39:22.941Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\App.razor",
               "RelativeDocumentMoniker": "BlazorWasmApp\\App.razor",
@@ -349,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\wwwroot\\css\\app.css",
               "RelativeDocumentMoniker": "BlazorWasmApp\\wwwroot\\css\\app.css",
@@ -373,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "EmptyLayout.razor",
               "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Layout\\EmptyLayout.razor",
               "RelativeDocumentMoniker": "BlazorWasmApp\\Layout\\EmptyLayout.razor",
@@ -385,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Counter.razor",
               "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\Counter.razor",
@@ -393,7 +431,8 @@
               "RelativeToolTip": "BlazorWasmApp\\Pages\\Counter.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-07T07:58:12.228Z"
+              "WhenOpened": "2025-02-07T07:58:12.228Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -406,42 +445,6 @@
               "ViewState": "AgIAAJYAAAAAAAAAAAAuwK4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-05T04:48:12.231Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Login.razor",
-              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Login.razor",
-              "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\Login.razor",
-              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Login.razor",
-              "RelativeToolTip": "BlazorWasmApp\\Pages\\Login.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-28T19:13:29.543Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Weather.razor",
-              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Weather.razor",
-              "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\Weather.razor",
-              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Weather.razor",
-              "RelativeToolTip": "BlazorWasmApp\\Pages\\Weather.razor",
-              "ViewState": "AgIAANwAAAAAAAAAAAAAAAkBAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-28T19:14:40.643Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Favouritecitis.razor",
-              "DocumentMoniker": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Favouritecitis.razor",
-              "RelativeDocumentMoniker": "BlazorWasmApp\\Pages\\Favouritecitis.razor",
-              "ToolTip": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\Pages\\Favouritecitis.razor",
-              "RelativeToolTip": "BlazorWasmApp\\Pages\\Favouritecitis.razor",
-              "ViewState": "AgIAAFkBAAAAAAAAAAAewHQBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-28T18:31:36.67Z"
             },
             {
               "$type": "Document",
@@ -585,7 +588,8 @@
               "RelativeToolTip": "BlazorApi\\Services\\GeminiChatService.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAYwAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T12:03:26.058Z"
+              "WhenOpened": "2025-02-08T12:03:26.058Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -597,7 +601,8 @@
               "RelativeToolTip": "BlazorWasmApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAADaAgAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-07T13:13:38.255Z"
+              "WhenOpened": "2025-02-07T13:13:38.255Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -681,7 +686,8 @@
               "RelativeToolTip": "BlazorWasmApp\\Models\\WeatherResponse.cs",
               "ViewState": "AgIAAFkAAAAAAAAAAAAmwGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:43:32.285Z"
+              "WhenOpened": "2025-01-28T18:43:32.285Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -765,7 +771,8 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.402\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "ViewState": "AgIAAO0AAAAAAAAAAAAAwAkBAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-01-28T18:12:03.398Z"
+              "WhenOpened": "2025-01-28T18:12:03.398Z",
+              "EditorCaption": ""
             }
           ]
         }

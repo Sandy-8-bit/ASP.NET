@@ -4,40 +4,252 @@
 @inject ToasterService Toaster
 
 <div class="register-container">
-    <h3>Register</h3>
-
-    <EditForm Model="this" OnValidSubmit="HandleRegister" class="register-form">
-        <DataAnnotationsValidator />
-        <ValidationSummary />
-
-        <div>
-            <label>Email:</label>
-            <InputText @bind-Value="Email" class="form-control" />
-        </div>
-        <div>
-            <label>Password:</label>
-            <InputText @bind-Value="Password" type="password" class="form-control" />
-        </div>
-        <div class="make-down">
-            <p>
+    <div class="form-box">
+        <div class="animated-background"></div>
+        <h3 class="title">Create Account</h3>
+        <EditForm Model="this" OnValidSubmit="HandleRegister" class="register-form">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+            <div class="input-group">
+                <InputText @bind-Value="Email" class="form-control" placeholder=" " />
+                <label class="floating-label">Email</label>
+                <div class="input-highlight"></div>
+            </div>
+            <div class="input-group">
+                <InputText @bind-Value="Password" type="password" class="form-control" placeholder=" " />
+                <label class="floating-label">Password</label>
+                <div class="input-highlight"></div>
+            </div>
+            <div class="login-link">
                 Already have an account?
-                <a href="login" class="register-link">Login</a>
-            </p>
-        </div>
-        <button type="submit" class="register-button" disabled="@IsLoading">
-            @(IsLoading ? "Registering..." : "Register")
-        </button>
-        @if (IsLoading)
+                <a href="login" class="animated-link">Login</a>
+            </div>
+            <button type="submit" class="register-button" disabled="@IsLoading">
+                <span class="button-text">@(IsLoading ? "Registering..." : "Register")</span>
+                <span class="button-icon">→</span>
+            </button>
+            @if (IsLoading)
+            {
+                <div class="spinner"></div>
+            }
+        </EditForm>
+        @if (!string.IsNullOrEmpty(Message))
         {
-            <div class="spinner"></div>
+            <p class="register-message">@Message</p>
         }
-    </EditForm>
-
-    @if (!string.IsNullOrEmpty(Message))
-    {
-        <p class="register-message">@Message</p>
-    }
+    </div>
 </div>
+
+<style>
+    .register-container {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        padding: 20px;
+    }
+
+    .form-box {
+        position: relative;
+        width: 100%;
+        max-width: 420px;
+        padding: 40px;
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        animation: fadeIn 0.6s ease-out;
+    }
+
+    .animated-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 200px;
+        background: linear-gradient(45deg, #6b8cce, #7c5cff);
+        clip-path: ellipse(140% 60% at 50% -20%);
+        z-index: 0;
+    }
+
+    .title {
+        position: relative;
+        color: white;
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 40px;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .input-group {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 12px;
+        border: 2px solid #e1e1e1;
+        border-radius: 12px;
+        font-size: 16px;
+        transition: all 0.3s ease;
+        background: transparent;
+    }
+
+    .floating-label {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 16px;
+        color: #666;
+        pointer-events: none;
+        transition: all 0.3s ease;
+    }
+
+    .form-control:focus ~ .floating-label,
+    .form-control:not(:placeholder-shown) ~ .floating-label {
+        top: -12px;
+        left: 8px;
+        font-size: 14px;
+        color: #7c5cff;
+        background: white;
+        padding: 0 6px;
+    }
+
+    .input-highlight {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: #7c5cff;
+        transition: width 0.3s ease;
+    }
+
+    .form-control:focus ~ .input-highlight {
+        width: 100%;
+    }
+
+    .form-control:focus {
+        border-color: #7c5cff;
+        box-shadow: 0 0 0 3px rgba(124, 92, 255, 0.1);
+        outline: none;
+    }
+
+    .login-link {
+        text-align: center;
+        margin: 20px 0;
+        color: #666;
+    }
+
+    .animated-link {
+        color: #7c5cff;
+        text-decoration: none;
+        position: relative;
+        margin-left: 5px;
+    }
+
+    .animated-link::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: -2px;
+        left: 0;
+        background: #7c5cff;
+        transform: scaleX(0);
+        transition: transform 0.3s ease;
+    }
+
+    .animated-link:hover::after {
+        transform: scaleX(1);
+    }
+
+    .register-button {
+        width: 100%;
+        padding: 14px;
+        background: linear-gradient(45deg, #6b8cce, #7c5cff);
+        border: none;
+        border-radius: 12px;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .register-button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(124, 92, 255, 0.2);
+    }
+
+    .register-button:disabled {
+        opacity: 0.7;
+        cursor: not-allowed;
+        transform: none;
+    }
+
+    .button-icon {
+        transition: transform 0.3s ease;
+    }
+
+    .register-button:hover .button-icon {
+        transform: translateX(5px);
+    }
+
+    .register-message {
+        margin-top: 20px;
+        color: #ff4747;
+        text-align: center;
+        animation: shakeX 0.8s ease;
+    }
+
+    .spinner {
+        margin: 20px auto;
+        width: 30px;
+        height: 30px;
+        border: 3px solid rgba(124, 92, 255, 0.1);
+        border-top-color: #7c5cff;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+    }
+
+   @@keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @@keyframes spin {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    @@keyframes shakeX {
+        0%, 100% {
+            transform: translateX(0);
+        }
+        25% {
+            transform: translateX(-5px);
+        }
+        75% {
+            transform: translateX(5px);
+        }
+    }
+</style>
 
 @code {
     private string Email { get; set; } = string.Empty;
@@ -66,81 +278,3 @@
     }
 }
 
-
-<style>
-     .register-container {
-         max-width: 400px;
-         margin: 50px auto;
-         padding: 20px;
-         background: #f9f9f9;
-         border-radius: 10px;
-         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-         text-align: center;
-     }
-
-         .register-container h3 {
-             color: #007BFF;
-             margin-bottom: 20px;
-         }
-
-     .register-form label {
-         display: block;
-         margin-top: 10px;
-         font-weight: bold;
-         text-align: left;
-     }
-     .make-down{
-         padding-top:10px;
-     }
-
-     .register-form input {
-         width: 100%;
-         padding: 8px;
-         margin-top: 5px;
-         border: 1px solid #ccc;
-         border-radius: 5px;
-     }
-
-     .register-button {
-         width: 100%;
-         background-color: #007BFF;
-         color: white;
-         padding: 10px;
-         margin-top: 15px;
-         border: none;
-         border-radius: 5px;
-         cursor: pointer;
-         transition: background 0.3s;
-     }
-
-         .register-button:hover {
-             background-color: #0056b3;
-         }
-
-     .register-message {
-         margin-top: 15px;
-         color: red;
-         font-weight: bold;
-     }
-
-    .spinner {
-        margin: 10px auto;
-        border: 4px solid rgba(0, 0, 0, 0.1);
-        border-left-color: #007BFF;
-        width: 24px;
-        height: 24px;
-        border-radius: 50%;
-        animation: spin 1s linear infinite;
-    }
-
-    @@keyframes spin {
-        0% {
-            transform: rotate(0deg);
-        }
-
-        100% {
-            transform: rotate(360deg);
-        }
-    }
-
-</style>
