@@ -4660,11 +4660,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\BlazorWasmApp.csproj",
+      "projectUniqueName": "D:\\ASP.NET\\BlazorWasmApp\\BlazorWasmApp.csproj",
       "projectName": "BlazorWasmApp",
-      "projectPath": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\BlazorWasmApp.csproj",
+      "projectPath": "D:\\ASP.NET\\BlazorWasmApp\\BlazorWasmApp.csproj",
       "packagesPath": "C:\\Users\\santh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\obj\\",
+      "outputPath": "D:\\ASP.NET\\BlazorWasmApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\santh\\AppData\\Roaming\\NuGet\\NuGet.Config",

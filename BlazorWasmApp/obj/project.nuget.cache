@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IMTpfsksTFw=",
+  "dgSpecHash": "G1i1B+XtXrw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\BlazorWasmApp.csproj",
+  "projectFilePath": "D:\\ASP.NET\\BlazorWasmApp\\BlazorWasmApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\santh\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",
     "C:\\Users\\santh\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",

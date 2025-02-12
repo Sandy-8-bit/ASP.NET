@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorApi\\BlazorApi.csproj": {}
+    "D:\\ASP.NET\\BlazorApi\\BlazorApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorApi\\BlazorApi.csproj": {
+    "D:\\ASP.NET\\BlazorApi\\BlazorApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorApi\\BlazorApi.csproj",
+        "projectUniqueName": "D:\\ASP.NET\\BlazorApi\\BlazorApi.csproj",
         "projectName": "BlazorApi",
-        "projectPath": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorApi\\BlazorApi.csproj",
+        "projectPath": "D:\\ASP.NET\\BlazorApi\\BlazorApi.csproj",
         "packagesPath": "C:\\Users\\santh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorApi\\obj\\",
+        "outputPath": "D:\\ASP.NET\\BlazorApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\santh\\AppData\\Roaming\\NuGet\\NuGet.Config",

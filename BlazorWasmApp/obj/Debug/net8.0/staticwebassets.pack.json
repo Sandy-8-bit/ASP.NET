@@ -1,47 +1,47 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "D:\\ASP.NET\\BlazorWasmApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\obj\\Debug\\net8.0\\compressed\\cj0c2xx252.gz",
+      "Id": "D:\\ASP.NET\\BlazorWasmApp\\obj\\Debug\\net8.0\\compressed\\cj0c2xx252.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorWasmApp.styles.css",
+      "Id": "D:\\ASP.NET\\BlazorWasmApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorWasmApp.styles.css",
       "PackagePath": "staticwebassets\\BlazorWasmApp.styles.css"
     },
     {
-      "Id": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\wwwroot\\css\\app.css",
+      "Id": "D:\\ASP.NET\\BlazorWasmApp\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "D:\\ASP.NET\\BlazorWasmApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "D:\\ASP.NET\\BlazorWasmApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\wwwroot\\favicon.png",
+      "Id": "D:\\ASP.NET\\BlazorWasmApp\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\wwwroot\\icon-192.png",
+      "Id": "D:\\ASP.NET\\BlazorWasmApp\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\wwwroot\\index.html",
+      "Id": "D:\\ASP.NET\\BlazorWasmApp\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\wwwroot\\js\\Toast.js",
+      "Id": "D:\\ASP.NET\\BlazorWasmApp\\wwwroot\\js\\Toast.js",
       "PackagePath": "staticwebassets\\js\\Toast.js"
     },
     {
-      "Id": "C:\\Users\\santh\\source\\repos\\Fullstack-Dotnet\\ASP.NET\\BlazorWasmApp\\wwwroot\\sample-data\\weather.json",
+      "Id": "D:\\ASP.NET\\BlazorWasmApp\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {
